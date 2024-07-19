@@ -1,0 +1,115 @@
+*{
+	margin:0 ;
+	padding: 0;
+	background-color: white;
+}
+
+body{
+	
+	;}
+
+.contenedor{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.descripcion p{
+	background-color: aliceblue;
+	color: cadetblue;
+	font-size: 25px;
+}
+
+.i{
+	background-color: cadetblue;
+	width: 40%;
+	height: 700px;
+	position: absolute;
+	top: 0px;
+	text-align: left;
+	
+
+
+}
+
+img{
+	background-color: orange;
+
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	position: absolute;
+	top: 20px;
+	align-content:center ;
+}
+
+
+li p:last-of-type::after {
+    content: "";
+    display: block;
+    height: 1em; /* Ajusta la altura del salto de línea  */
+}
+
+
+
+
+ul.iz{
+	margin-top: 200px;
+
+}
+
+.datosp li, .habilidad li, .idiomas li{
+	margin-bottom: 40px;
+	padding: 20px;
+
+}
+.datosp p, .datosp h1{
+	background-color: cadetblue;
+	color: aliceblue;
+	font-size: 25px;
+
+}
+
+
+
+.habilidad p, .habilidad h1{
+	background-color: cadetblue;
+	color: aliceblue;
+	font-size: 25px;
+
+}
+
+
+.idiomas p, .idiomas h1{
+	background-color: cadetblue;
+	color: aliceblue;
+	font-size: 25px;
+
+}
+
+
+
+.d{
+	background-color: aliceblue;
+	width: 60%;
+	height: 800px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+
+.t1 p ,.t2 p, .t1 h1,.t2 h1, .t1 h2,.t2 h2, .t1 h3,.t2 h3{
+	color: cadetblue;
+	background-color: aliceblue;
+	font-size: 25px;
+}
+.educ p, .educ h1, .educ h3{
+	color: cadetblue;
+	background-color: aliceblue;
+	font-size: 25px;
+}
+
+
+
